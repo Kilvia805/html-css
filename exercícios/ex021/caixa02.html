@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color:darkgray;
+            margin: 0px;
+        }
+        h1{
+            box-shadow: 5px 7px 14px 5px black;
+        }
+        header{
+            background-color: cornsilk;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(76, 0, 130, 0.445);
+            padding: 5px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: ivory;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: cornsilk;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        article{
+            background-color: ghostwhite;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: honeydew;
+        }
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: azure;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Meu site</h1>
+         <nav>
+            <a href="/">Hoje</a>
+            <a href="/">Amanhã</a>
+            <a href="/">Depois</a>
+            <a href="/">Depois de Depois</a>
+         </nav>
+    </header>
+    <main>
+            <section id="assuntos">
+
+            </section>   
+            <section id="noticias">
+                <p>Esportes Política e Tecnologia</p>
+                 <article>
+                     <h2>Notícias Brasil</h2>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem quam dolores laboriosam, dicta temporibus nisi nemo vel dignissimos accusantium reprehenderit sapiente praesentium asperiores dolorum vitae atque obcaecati distinctio magni!</p>
+                    <aside>
+                        <p>Artigo escrito por Kim Herrera</p>
+                    </aside>
+                 </article>
+            </section>
+    </main>
+    <footer>
+            <p>Desenvolvido por Kilvia Ferreira</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

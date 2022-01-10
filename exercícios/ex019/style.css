@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: #7fffd49a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: #008156;
+}
+#principal{
+    text-align: center;;
+}
+
+h2{
+    color: rgb(74, 148, 0);
+}
+
+.avancada{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.destaque{
+    background-color: cornsilk;
+}
